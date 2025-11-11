@@ -1,66 +1,84 @@
-# **Machine Learning Algorithms Repository**
+# Machine Learning Algorithms
 
-This repository is a complete collection of **machine learning algorithms**, covering everything from **supervised** to **unsupervised** learning.  
+A comprehensive collection of machine learning algorithms organized by learning type.
 
-The goal is to build a clear, well-structured, and hands-on implementation base for understanding and applying ML algorithms — from the fundamentals to advanced concepts.
+## 📚 Algorithms by Category
 
----
+### 🔍 Supervised Learning
+- **Linear Models**
+  - Linear Regression
+  - Logistic Regression
+  - Ridge Regression
+  - Lasso Regression
+  - Elastic Net
 
-## **📘 What This Repository Includes**
+- **Tree-Based Methods**
+  - Decision Trees
+  - Random Forest
+  - Gradient Boosting Machines (GBM)
+  - XGBoost
+  - LightGBM
+  - CatBoost
 
-### 🔹 Supervised Learning
-- Linear Regression  
-- Logistic Regression  
-- Decision Trees  
-- Random Forest  
-- Support Vector Machines (SVM)  
-- K-Nearest Neighbors (KNN)  
-- Naive Bayes  
+- **Instance-Based Learning**
+  - K-Nearest Neighbors (KNN)
+  - Support Vector Machines (SVM)
 
-### 🔹 Unsupervised Learning
-- K-Means Clustering  
-- Hierarchical Clustering  
-- Principal Component Analysis (PCA)  
-- DBSCAN  
+- **Probabilistic Models**
+  - Naive Bayes
+  - Gaussian Processes
 
-### 🔹 (Coming Soon)
-- Ensemble Methods (Bagging, Boosting, Stacking)  
-- Dimensionality Reduction  
-- Neural Networks (Basic Overview)  
+- **Neural Networks**
+  - Multi-Layer Perceptron (MLP)
+  - Convolutional Neural Networks (CNN)
+  - Recurrent Neural Networks (RNN)
+  - Long Short-Term Memory (LSTM)
 
----
+### 🎯 Unsupervised Learning
+- **Clustering Algorithms**
+  - K-Means Clustering
+  - Hierarchical Clustering
+  - DBSCAN
+  - Gaussian Mixture Models (GMM)
+  - Mean Shift
 
-## **🧠 Purpose**
+- **Dimensionality Reduction**
+  - Principal Component Analysis (PCA)
+  - t-SNE
+  - UMAP
+  - Autoencoders
+  - Independent Component Analysis (ICA)
 
-This repository is meant for:
-- Building a **strong conceptual foundation** in ML algorithms  
-- Practicing **implementation from scratch** as well as using **scikit-learn**  
-- Serving as a **reference notebook collection** for future ML and Data Science projects  
+- **Association Rules**
+  - Apriori Algorithm
+  - FP-Growth
 
----
+- **Anomaly Detection**
+  - Isolation Forest
+  - Local Outlier Factor (LOF)
 
-## **⚙️ Tools & Libraries**
-- Python  
-- NumPy  
-- Pandas  
-- Matplotlib / Seaborn  
-- Scikit-learn  
+### 🎮 Reinforcement Learning
+- **Value-Based Methods**
+  - Q-Learning
+  - Deep Q-Network (DQN)
+  - SARSA
 
----
+- **Policy-Based Methods**
+  - REINFORCE
+  - Proximal Policy Optimization (PPO)
 
-## **📁 Structure**
-Each algorithm will have:
-1. A Jupyter Notebook explaining the theory  
-2. Clean implementation code  
-3. Example dataset with visualization and evaluation  
+- **Actor-Critic Methods**
+  - Advantage Actor-Critic (A2C)
+  - Asynchronous Advantage Actor-Critic (A3C)
+  - Deep Deterministic Policy Gradient (DDPG)
 
----
+- **Model-Based RL**
+  - Monte Carlo Methods
+  - Temporal Difference (TD) Learning
 
-## **🚀 Future Plans**
-- Add real-world case studies for each algorithm  
-- Integrate model evaluation and hyperparameter tuning  
-- Add deep learning section (TensorFlow / PyTorch)
+## 🛠️ Installation
 
----
-
-> *This repository is a continuous learning project — improving and expanding with each algorithm I master.*
+```bash
+git clone https://github.com/your-username/machine-learning-algorithms.git
+cd machine-learning-algorithms
+pip install -r requirements.txt
