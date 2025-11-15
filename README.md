@@ -2,9 +2,9 @@
 
 A comprehensive collection of machine learning algorithms organized by learning type.
 
-## 📚 Algorithms by Category
+##  Algorithms by Category
 
-### 🔍 Supervised Learning
+###  Supervised Learning
 - **Linear Models**
   - Linear Regression
   - Logistic Regression
@@ -34,7 +34,7 @@ A comprehensive collection of machine learning algorithms organized by learning 
   - Recurrent Neural Networks (RNN)
   - Long Short-Term Memory (LSTM)
 
-### 🎯 Unsupervised Learning
+###  Unsupervised Learning
 - **Clustering Algorithms**
   - K-Means Clustering
   - Hierarchical Clustering
@@ -57,7 +57,7 @@ A comprehensive collection of machine learning algorithms organized by learning 
   - Isolation Forest
   - Local Outlier Factor (LOF)
 
-### 🎮 Reinforcement Learning
+###  Reinforcement Learning
 - **Value-Based Methods**
   - Q-Learning
   - Deep Q-Network (DQN)
@@ -76,7 +76,7 @@ A comprehensive collection of machine learning algorithms organized by learning 
   - Monte Carlo Methods
   - Temporal Difference (TD) Learning
 
-## 🛠️ Installation
+##  Installation
 
 ```bash
 git clone https://github.com/your-username/machine-learning-algorithms.git
